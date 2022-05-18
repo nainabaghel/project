@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store - product page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/product.css">
+
+</head>
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar dark"></nav>
+
+    <img src="../img/loading.gif" class="loader" alt="">
+
+    <!-- product detail -->
+    <section class="product-section">   
+        <img src="img/product-image.png" class="product-image" alt="">
+        <div class="product-detail">
+            <h1 class="product-title">premium sofa</h1>
+            <p class="product-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae vero officiis hic aliquid nisi voluptatibus.</p>
+            <div class="ratings">
+                <img src="img/fill star.png" class="star" alt="">
+                <img src="img/fill star.png" class="star" alt="">
+                <img src="img/fill star.png" class="star" alt="">
+                <img src="img/fill star.png" class="star" alt="">
+                <img src="img/no fill star.png" class="star" alt="">
+                <span class="rating-count">4,023 reviews</span>
+            </div>
+            <p class="price">$ 499</p>
+            <div class="btn-container">
+                <button class="product-btn buy-btn">buy now</button>
+                <button class="product-btn cart-btn">add to cart</button>
+            </div>
+        </div>
+    </section>
+    
+    <section class="detail-des">
+        <h1 class="section-title">details</h1>
+        <p class="des">A sofa is a very important piece in your living room and is most likely the most precious addition to an abode that you might get. It’s something on which you loaf around, sit down with your loved ones, entertain friends and family, watch telecasts as well as giving yourself a good night’s rest once in while. For this reason it's vital to choose wisely when it comes down to your seating needs by considering what sort of sofa will make do for your needs. We hope you can find whatever it is that you're looking for! You can choose a sofa set based on the shape and size of your living room like an L-shaped sofa, a two-seater or three-seater couch, corner couches, single sofa chairs for smaller spaces, leather cushions and upholstery for example. You can also choose your ideal fabric material such as wooden sets with cane arms, large armchairs if you're feeling traditional or fabric sofas in bright hues like hot pink or turquoise for an edgier feel. All of the products we supply are at the lowest prices guaranteed.</p>
+
+    </section>
+
+    <!-- review section -->
+
+    <section class="review-section">
+        <h1 class="section-title">Reviews</h1>
+        <div class="review-container">
+            <div class="review-card">
+                <div class="user-dp" data-rating="4.9"><img src="img/user 1.png" alt=""></div>
+                <h2 class="review-title">best quality more than my expectation</h2>
+                <p class="review">The product is really good..</p>
+            </div>
+            <div class="review-card">
+                <div class="user-dp" data-rating="4.9"><img src="img/user 2.png" alt=""></div>
+                <h2 class="review-title">on time delivery with best packaging</h2>
+                <p class="review">I liked it.</p>
+            </div>
+            <div class="review-card">
+                <div class="user-dp" data-rating="4.9"><img src="img/user 3.png" alt=""></div>
+                <h2 class="review-title">very helpful customer support</h2>
+                <p class="review">Beyond my expectations.</p>
+            </div>
+            <div class="review-card">
+                <div class="user-dp" data-rating="4.9"><img src="img/user 4.png" alt=""></div>
+                <h2 class="review-title">very easy to refund/return products</h2>
+                <p class="review">easy refund and return policy. No fraud.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- add review form -->
+
+    <section class="add-review-section">
+        <h1 class="section-title">add a review</h1>
+        <input type="text" class="review-headline" placeholder="review headline">
+        <textarea placeholder="review" class="review-field"></textarea>
+        <p class="rating-text">how much you liked the product</p>
+        <div class="star-container">
+            <img src="img/no fill star.png" class="rating-star" alt="">
+            <img src="img/no fill star.png" class="rating-star" alt="">
+            <img src="img/no fill star.png" class="rating-star" alt="">
+            <img src="img/no fill star.png" class="rating-star" alt="">
+            <img src="img/no fill star.png" class="rating-star" alt="">
+        </div>
+        <span class="error">**this is an error</span>
+        <button class="add-review-btn">add review</button>
+    </section>
+
+        <!-- similar products -->
+
+        <section class="best-selling-product-section">
+            <h1 class="section-title">similar products</h1>
+            <div class="product-container">
+                <div class="product-card">
+                    <a href="https://www.amazon.in/MAMMOTH-Atmosphere-Ceiling-Hanging-Chandeliers/dp/B099Z1VKQY/ref=sr_1_19?keywords=jhumar+for+hall&qid=1652786566&s=kitchen&sprefix=jhumar%2Ckitchen%2C398&sr=1-19">
+                        <img src="img/lamp.png" class="product-img" alt=""></a>
+                    <p class="product-name">lights →</p>
+                </div>
+                <div class="product-card">
+                    <a href="https://www.amazon.in/Amaze-Shoppee-Wooden-Beautiful-Handmade/dp/B07MK91RXC/ref=sr_1_1_sspa?keywords=stool%2Bfor%2Bliving%2Broom&qid=1652787203&s=kitchen&sprefix=stool%2Ckitchen%2C470&sr=1-1-spons&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzQzhKQjI1UUtYNzREJmVuY3J5cHRlZElkPUEwMDYzNTk1MkQ1NkgyNkY3MTEySyZlbmNyeXB0ZWRBZElkPUEwMTgyMjAzMlpVQzFDUU5CWU9QSSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU&th=1">
+                        <img src="img/product-img.png" class="product-img" alt=""></a>
+                    <p class="product-name">table →</p>
+                </div>
+                <div class="product-card">
+                    <a href="https://www.amazon.in/Adorn-India-Decent-Seater-Handle/dp/B084MGCHSB/ref=sxin_14?asc_contentid=amzn1.osa.463543f3-6b58-454d-a5fb-8710d5c51854.A21TJRUUN4KGV.en_IN&asc_contenttype=article&ascsubtag=amzn1.osa.463543f3-6b58-454d-a5fb-8710d5c51854.A21TJRUUN4KGV.en_IN&creativeASIN=B084MGCHSB&crid=27EVN6J2FGHC5&cv_ct_cx=sofa&cv_ct_id=amzn1.osa.463543f3-6b58-454d-a5fb-8710d5c51854.A21TJRUUN4KGV.en_IN&cv_ct_pg=search&cv_ct_we=asin&cv_ct_wn=osp-single-source-earns-comm&keywords=sofa&linkCode=oas&pd_rd_i=B084MGCHSB&pd_rd_r=f3a9ce17-6599-4559-b756-c394a797c457&pd_rd_w=JSv0F&pd_rd_wg=RIL26&pf_rd_p=f50b8836-bf86-46c0-a999-ee1dda2b7d1f&pf_rd_r=DESZZGR3KJH8Y81RGRW2&qid=1652824193&sprefix=sofa%2Caps%2C493&sr=1-1-61f4c597-7a45-4a97-bd75-c52903f8ee93&tag=insiderreviews-21">
+                    <img src="img/product-3.png" class="product-img" alt=""></a>
+                    <p class="product-name">storage →</p>
+                </div>
+                <div class="product-card">
+                    <a href="https://www.amazon.in/Furniture-Cafe-Zigzag-Shelves-Decoration/dp/B07FD6KDK9/ref=sr_1_5?keywords=furnitures+for+home+living+room&qid=1652823334&sprefix=furniture%2Caps%2C459&sr=8-5">            
+                       <img src="img/product-4.png" class="product-img" alt=""></a>
+                    <p class="product-name">sofa →</p>
+                </div>
+        </section>
+
+
+
+    <script src="../js/home.js"></script>
+    <script src="../js/nav.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/product.js"></script>
+    <script src="../js/review.js"></script>
+    
+</body>
+</html>
